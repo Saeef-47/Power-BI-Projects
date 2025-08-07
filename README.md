@@ -1,54 +1,48 @@
-# **Customer Demographics & Status Analysis – Power BI Dashboard**
+# **Global Terrorism Analysis – Power BI Dashboard**
 
 ##  **Project Overview**
-This project presents an interactive **Power BI dashboard** that analyzes customer demographic and status-related data.  
-The aim is to uncover patterns based on birth date, gender, marital status, location, and living conditions to help with segmentation, decision-making, and targeted services.
+This project presents an interactive **Power BI dashboard** analyzing global terrorism incidents using historical data.  
+The objective is to explore **trends, regions, attack types, casualties, and target patterns** to gain insights that can help in security planning, counter-terrorism strategies, and policy-making.
+
+The dataset contains detailed records of terrorist incidents worldwide, including location, year, target type, attack type, weapons used, and impact.
 
 ---
 
-## 📊 **Key Features**
-- **Demographic Distribution** – Breakdown by gender, age groups, and marital status.
-- **Geographical Insights** – Analysis by city, state, and postal code.
-- **Living Status Overview** – Insights into customers’ current living status and location patterns.
-- **Status Tracking** – Monitor and analyze active/inactive customer statuses over time.
-- **Time-Based Trends** – Identify trends based on recorded dates and times.
-- **Interactive Filtering** – Filter data by gender, marital status, location, and status for deeper exploration.
+##  **Key Features**
+- **Yearly Trends** – Visual representation of terrorism incidents over time.
+- **Geographical Analysis** – Map view showing hotspots of terrorism by country and region.
+- **Attack Type Insights** – Analysis of common attack types and their frequencies.
+- **Target Analysis** – Identifying the most targeted sectors (military, civilians, infrastructure, etc.).
+- **Casualty Analysis** – Fatalities and injuries over the years.
+- **Filtering & Slicing** – Users can filter by region, country, year, or attack type for detailed insights.
 
 ---
 
 ##  **Dataset Information**
-
+- **Period Covered**: 1970–2017
 - **Data Points**:
-  - **Birthdate** – Customer’s date of birth
-  - **City** – City of residence
-  - **Date** – Record entry date
-  - **Gender Code** – Encoded gender information
-  - **Living Status** – Current living condition or status
-  - **Marital Status** – Customer’s marital situation
-  - **Postal Code** – Zip/postal code of residence
-  - **State** – State of residence
-  - **Status** – Customer’s current status (e.g., Active/Inactive)
-  - **Time** – Record entry time
+  - Year, Month, Day
+  - Country, Region, City
+  - Attack Type, Target Type, Weapon Type
+  - Number of Killed & Wounded
+  - Group Responsible
 
 ---
 
 ##  **Tools & Technologies**
-- **Microsoft Power BI** – Dashboard creation and visualization
+- **Microsoft Power BI** – Data visualization and dashboard creation
 - **Power Query** – Data cleaning and transformation
 - **DAX (Data Analysis Expressions)** – Custom calculations and measures
-- **CSV/Excel** – Data source format
-
----
-
-##  **Dashboard Snapshots**
-![Dashboard Screenshot](Email%20Marketing%20Dashboard.png)
+- **Data Source** – CSV format from GTD
 
 ---
 
 ##  **Insights Derived**
-- Most customers signed up within the **2018 year**.
-- Certain states and postal codes have higher concentrations of active customers.
-- Married customers show different location and status patterns compared to single customers.
-- Time-based patterns reveal peak record entry hours.
+- Terrorist activities peaked between **2000–2020**, with notable decline afterward.
+- **Middle East & South Asia** recorded the highest number of incidents.
+- **Bombing/Explosion** is the most common attack method.
+- Private Citizens are the most frequently targeted group.
 
----
+##  **Dashboard Snapshots**
+![Dashboard preview](Global%20Terrorism%20Dashboard.png)
+
