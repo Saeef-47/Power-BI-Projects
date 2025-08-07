@@ -1,48 +1,54 @@
-# **Global Terrorism Analysis – Power BI Dashboard**
+# **IBM Employee Data Analysis – Power BI Dashboard**
 
 ##  **Project Overview**
-This project presents an interactive **Power BI dashboard** analyzing global terrorism incidents using historical data.  
-The objective is to explore **trends, regions, attack types, casualties, and target patterns** to gain insights that can help in security planning, counter-terrorism strategies, and policy-making.
-
-The dataset contains detailed records of terrorist incidents worldwide, including location, year, target type, attack type, weapons used, and impact.
+This project presents an interactive **Power BI dashboard** based on IBM’s employee dataset.  
+The goal is to analyze employee demographics, job roles, attrition, and performance to gain actionable insights that support data-driven HR decisions and workforce management strategies.
 
 ---
 
 ##  **Key Features**
-- **Yearly Trends** – Visual representation of terrorism incidents over time.
-- **Geographical Analysis** – Map view showing hotspots of terrorism by country and region.
-- **Attack Type Insights** – Analysis of common attack types and their frequencies.
-- **Target Analysis** – Identifying the most targeted sectors (military, civilians, infrastructure, etc.).
-- **Casualty Analysis** – Fatalities and injuries over the years.
-- **Filtering & Slicing** – Users can filter by region, country, year, or attack type for detailed insights.
-
+- **Employee Demographics** – Analysis by age, gender, education, department, and job role.
+- **Attrition Insights** – Understand patterns in employee turnover and retention.
+- **Job Satisfaction** – Visuals on employee satisfaction, work-life balance, and environment ratings.
+- **Performance Analysis** – Compare performance ratings across roles and departments.
+- **Compensation Overview** – Breakdown of salary components: monthly income, hourly rate, and total working years.
 ---
 
 ##  **Dataset Information**
-- **Period Covered**: 1970–2017
-- **Data Points**:
-  - Year, Month, Day
-  - Country, Region, City
-  - Attack Type, Target Type, Weapon Type
-  - Number of Killed & Wounded
-  - Group Responsible
+- **Data Fields** (sample):
+  - Employee Number / ID
+  - Age
+  - Gender
+  - Department
+  - Job Role
+  - Education Level
+  - Monthly Income
+  - Marital status
+  - Numcomopanies worked
+  - Job Satisfaction
+  - Over 18
+  - Over Time
+  - Environment Satisfaction
 
 ---
 
 ##  **Tools & Technologies**
-- **Microsoft Power BI** – Data visualization and dashboard creation
-- **Power Query** – Data cleaning and transformation
-- **DAX (Data Analysis Expressions)** – Custom calculations and measures
-- **Data Source** – CSV format from GTD
+- **Microsoft Power BI** – Dashboard creation and data visualization
+- **Power Query** – Data transformation and cleaning
+- **DAX (Data Analysis Expressions)** – Custom KPIs and calculated fields
+- **Excel/CSV** – Source data format
+
+---
+
+##  **Dashboard Snapshots**
+![Dashboard Screenshot](IBM%20Employees%20Dashboard.png)
 
 ---
 
 ##  **Insights Derived**
-- Terrorist activities peaked between **2000–2020**, with notable decline afterward.
-- **Middle East & South Asia** recorded the highest number of incidents.
-- **Bombing/Explosion** is the most common attack method.
-- Private Citizens are the most frequently targeted group.
+- Higher attrition observed among **younger employees** with fewer years at the company.
+- Departments like **Sales** and **Research & Development** show the most employee movement.
+- Low job satisfaction and work-life balance ratings are often linked with attrition.
+- Performance ratings are mostly stable across departments, with minimal outliers.
 
-##  **Dashboard Snapshots**
-![Dashboard preview](Global%20Terrorism%20Dashboard.png)
-
+---
