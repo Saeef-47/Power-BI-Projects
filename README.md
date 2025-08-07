@@ -1,54 +1,63 @@
-# **IBM Employee Data Analysis – Power BI Dashboard**
+# **IPL Data Analysis – Power BI Dashboard**
 
 ##  **Project Overview**
-This project presents an interactive **Power BI dashboard** based on IBM’s employee dataset.  
-The goal is to analyze employee demographics, job roles, attrition, and performance to gain actionable insights that support data-driven HR decisions and workforce management strategies.
+This project showcases an interactive **Power BI dashboard** that analyzes data from the **Indian Premier League (IPL)** using ball-by-ball and match-level datasets.  
+The goal is to derive insights on team performance, player statistics, match outcomes, and seasonal trends to help fans, analysts, and teams make data-driven evaluations.
 
 ---
 
 ##  **Key Features**
-- **Employee Demographics** – Analysis by age, gender, education, department, and job role.
-- **Attrition Insights** – Understand patterns in employee turnover and retention.
-- **Job Satisfaction** – Visuals on employee satisfaction, work-life balance, and environment ratings.
-- **Performance Analysis** – Compare performance ratings across roles and departments.
-- **Compensation Overview** – Breakdown of salary components: monthly income, hourly rate, and total working years.
+- **Season-wise Analysis** – Overview of matches played, teams involved, and title winners by season.
+- **Top Players** – List of top run scorers, wicket takers, and match-winning performances.
+- **Team Performance** – Win/loss records, toss decisions, and performance at different venues.
+- **Batting & Bowling Insights** – Breakdown of boundaries, dot balls, economy rates, and strike rates.
+- **Venue & Toss Analysis** – Impact of toss and venue on match outcomes.
+- **Interactive Filters** – Explore data by season, team, player, and venue.
+
 ---
 
 ##  **Dataset Information**
-- **Data Fields** (sample):
-  - Employee Number / ID
-  - Age
-  - Gender
-  - Department
-  - Job Role
-  - Education Level
-  - Monthly Income
-  - Marital status
-  - Numcomopanies worked
-  - Job Satisfaction
-  - Over 18
-  - Over Time
-  - Environment Satisfaction
+- **Tables Used**:
+  1. **Matches Dataset**:
+     - Match ID
+     - Season
+     - City
+     - Date
+     - Team 1 & Team 2
+     - Toss Winner & Decision
+     - Match Winner
+     - Player of the Match
+     - Venue
+  2. **Deliveries Dataset**:
+     - Match ID
+     - Inning
+     - Batting Team
+     - Bowling Team
+     - Over & Ball
+     - Batsman & Bowler
+     - Runs (batsman, extras, total)
+     - Dismissal Information
+     - Fielder Involved
 
 ---
 
 ##  **Tools & Technologies**
-- **Microsoft Power BI** – Dashboard creation and data visualization
-- **Power Query** – Data transformation and cleaning
-- **DAX (Data Analysis Expressions)** – Custom KPIs and calculated fields
-- **Excel/CSV** – Source data format
+- **Microsoft Power BI** – Data visualization and dashboard creation
+- **Power Query** – Data transformation and preprocessing
+- **DAX (Data Analysis Expressions)** – Calculated metrics and KPIs
+- **CSV** – Source file format for datasets
 
 ---
 
-##  **Dashboard Snapshots**
-![Dashboard Screenshot](IBM%20Employees%20Dashboard.png)
+## 📈 **Dashboard Snapshots**
+![Dashboard Screenshot](IPL%20Dashboard.png)
 
 ---
 
 ##  **Insights Derived**
-- Higher attrition observed among **younger employees** with fewer years at the company.
-- Departments like **Sales** and **Research & Development** show the most employee movement.
-- Low job satisfaction and work-life balance ratings are often linked with attrition.
-- Performance ratings are mostly stable across departments, with minimal outliers.
+- **Mumbai Indians** and **Chennai Super Kings** are among the most successful teams.
+- Winning the **toss** often influences match outcomes, especially in specific venues.
+- Players like **Virat Kohli**, **G Gambhir**, and **SK Raina** consistently perform across seasons.
+- High-scoring matches and tight finishes are more common in certain venues like **Bangalore** and **Mumbai**.
 
 ---
