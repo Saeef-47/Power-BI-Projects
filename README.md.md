@@ -1,49 +1,44 @@
-# **Bank Data Analysis – Power BI Dashboard**
+# **COVID-19 Data Analysis – Power BI Dashboard**
 
 ##  **Project Overview**
-This project delivers an interactive **Power BI dashboard** analyzing bank customer data to uncover key insights about customer demographics, account activity, and product usage.  
-The goal is to support data-driven decisions for marketing strategies, customer segmentation, and risk management.
-
-The dataset includes information such as customer age, gender, account balance, transactions, and product subscriptions.
+This project provides an interactive **Power BI dashboard** that analyzes global COVID-19 data to track the spread, impact, and trends of the pandemic over time.  
+The dashboard helps visualize cases, recoveries, deaths, and vaccination progress across countries and regions, enabling data-driven understanding and decision-making.
 
 ---
 
 ##  **Key Features**
-- **Customer Demographics** – Visualizations on age groups, gender distribution, and geographic segmentation.
-- **Account Activity Analysis** – Overview of account balances, deposits, withdrawals, and transaction frequency.
-- **Product Usage** – Insights on which banking products (loans, credit cards, savings accounts) customers use most.
-- **Churn & Retention Analysis** – Track customer attrition and identify factors influencing retention.
-- **Filtering & Slicing** – Interactive filters for age, gender, location, and account type to drill down into details.
+- **Global Trend Analysis** – Visualization of confirmed cases, recoveries, and deaths over time.
+- **Country & Region Comparison** – Side-by-side comparison of COVID-19 metrics by location.
+- **Vaccination Progress** – Tracking vaccination rates and coverage worldwide.
+- **Impact Analysis** – Insights into daily new cases, fatality rates, and recovery rates.
+- **Interactive Filters** – Filter data by date range, country, and region for detailed exploration.
 
 ---
 
 ##  **Dataset Information**
-- **Source**: [Bank Customer Data (Example Dataset)](https://www.kaggle.com/datasets) *(replace with your actual source)*
 - **Data Points**:
-  - Customer ID, Age, Gender
-  - Account Balance, Credit Score
-  - Transaction History
-  - Churn Status
+  - Date, Country, Region
+  - Confirmed Cases, Deaths, Recoveries
+  - Active Cases
 
 ---
 
 ##  **Tools & Technologies**
-- **Microsoft Power BI** – Dashboard creation and visualization
-- **Power Query** – Data cleaning and transformation
-- **DAX (Data Analysis Expressions)** – Measures and calculated columns for insights
-- **CSV/Excel** – Data input formats
+- **Microsoft Power BI** – Visualization and dashboard building
+- **Power Query** – Data extraction and transformation
+- **DAX (Data Analysis Expressions)** – Custom measures and calculations
+- **CSV / API** – Data ingestion formats
 
 ---
 
 ##  **Dashboard Snapshots**
-![Dashboard Preview](Bank%20Data%20Analysis.png)
+![Dashboard Preview](Covid%2019%20Data%20Analysis.png)
 
 ---
 
 ##  **Insights Derived**
-- Majority of active customers fall within the **31-40 age group**
-- Customers with **higher account balances** tend to have more product subscriptions.
-- Identified key factors contributing to customer churn for targeted retention campaigns.
+- Peak case waves identified in various regions and timelines.
+- Vaccination rollout progress correlated with decline in active cases.
+- Regions with lower vaccination rates show higher case fatality ratios.
+- Daily case trends help predict potential surges.
 
-
----
