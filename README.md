@@ -1,63 +1,47 @@
-# **Sales & Inventory Analysis – Power BI Dashboard**
+# **Unemployment Analysis – Power BI Dashboard**
 
 ##  **Project Overview**
-This project presents an interactive **Power BI dashboard** to analyze sales performance and inventory status using customer, product, and sales data.  
-The goal is to provide insights into revenue trends, top-performing products, customer purchase patterns, and inventory availability to support data-driven business decisions.
+This project presents an interactive **Power BI dashboard** that analyzes unemployment trends across different age groups, genders, and time periods.  
+The goal is to identify patterns and insights that can help understand the demographic and temporal impact of unemployment, assisting policymakers, researchers, and economists.
 
 ---
 
 ##  **Key Features**
-- **Sales Overview** – Track total revenue, number of transactions, and sales growth over time.
-- **Top Products** – Identify best-selling products by quantity and revenue.
-- **Customer Insights** – Understand purchasing behavior and customer segmentation.
-- **Inventory Tracking** – Monitor current stock levels and restocking needs.
-- **Geographical Sales** – Map sales by customer location.
-- **Interactive Filtering** – Filter by date range, product category, and customer segment.
+- **Yearly & Monthly Trends** – Analyze how unemployment fluctuates over time.
+- **Age Group Analysis** – Breakdown of unemployment by different age ranges.
+- **Gender Comparison** – Compare unemployment rates between male and female populations.
+- **Seasonal Patterns** – Identify monthly or seasonal spikes in unemployment.
+- **Interactive Filters** – Slice and dice data by year, gender, age group, or month for targeted insights.
 
 ---
 
 ##  **Dataset Information**
-- **Data Tables**:
-  1. **Customer Table**:
-     - Customer ID
-     - Name
-     - Location
-     - Contact Information
-  2. **Product Table**:
-     - Product ID
-     - Product Name
-     - Category
-     - Unit Price
-     - Stock Quantity
-  3. **Sales Table**:
-     - Sales ID
-     - Date of Sale
-     - Customer ID (linked to Customer Table)
-     - Product ID (linked to Product Table)
-     - Quantity Sold
-     - Total Sales Amount
+- **Data Fields**:
+  - **Age** – Age group or exact age of individuals
+  - **Gender** – Gender of the individuals (Male/Female)
+  - **Month** – Month of record
+  - **Year** – Year of record
+  - **Unemployed** – Number of unemployed individuals
 
 ---
 
 ##  **Tools & Technologies**
-- **Microsoft Power BI** – Dashboard creation and visualization
+- **Microsoft Power BI** – Dashboard and data visualization
 - **Power Query** – Data cleaning and transformation
-- **DAX (Data Analysis Expressions)** – KPIs and calculated measures
+- **DAX (Data Analysis Expressions)** – Custom calculations and KPIs
+- **CSV/Excel** – Data input formats
 
 ---
 
 ## 📈 **Dashboard Snapshots**
-![Dashboard Screenshot](Sales%20%26%20Inventory%20Dashboard.png)
+![Dashboard Screenshot](Unemployement%20Dashboard.png)
 
 ---
 
 ##  **Insights Derived**
-- Top 3 Most Sold products:  **Asparagus,Carrot,Rhubab**.
-- Certain customer segments show higher purchase Quantity.
-- Seasonal sales trends identified for better demand forecasting.
+- Unemployment rates spiked during certain months/years indicating economic downturns.
+- Higher unemployment observed in specific age groups, especially **25 to 34 years**.
+- Gender-based trends show variation across years, with **women impacted more** in certain periods.
+- Monthly trends highlight seasonal employment effects in some regions.
 
 ---
-
-
-## 📜 **License**
-This project is for educational and analytical purposes only. Data is anonymized and for demonstration purposes.
