@@ -1,63 +1,49 @@
-# **Sales & Inventory Analysis – Power BI Dashboard**
+# **Bank Data Analysis – Power BI Dashboard**
 
 ##  **Project Overview**
-This project presents an interactive **Power BI dashboard** to analyze sales performance and inventory status using customer, product, and sales data.  
-The goal is to provide insights into revenue trends, top-performing products, customer purchase patterns, and inventory availability to support data-driven business decisions.
+This project delivers an interactive **Power BI dashboard** analyzing bank customer data to uncover key insights about customer demographics, account activity, and product usage.  
+The goal is to support data-driven decisions for marketing strategies, customer segmentation, and risk management.
+
+The dataset includes information such as customer age, gender, account balance, transactions, and product subscriptions.
 
 ---
 
 ##  **Key Features**
-- **Sales Overview** – Track total revenue, number of transactions, and sales growth over time.
-- **Top Products** – Identify best-selling products by quantity and revenue.
-- **Customer Insights** – Understand purchasing behavior and customer segmentation.
-- **Inventory Tracking** – Monitor current stock levels and restocking needs.
-- **Geographical Sales** – Map sales by customer location.
-- **Interactive Filtering** – Filter by date range, product category, and customer segment.
+- **Customer Demographics** – Visualizations on age groups, gender distribution, and geographic segmentation.
+- **Account Activity Analysis** – Overview of account balances, deposits, withdrawals, and transaction frequency.
+- **Product Usage** – Insights on which banking products (loans, credit cards, savings accounts) customers use most.
+- **Churn & Retention Analysis** – Track customer attrition and identify factors influencing retention.
+- **Filtering & Slicing** – Interactive filters for age, gender, location, and account type to drill down into details.
 
 ---
 
 ##  **Dataset Information**
-- **Data Tables**:
-  1. **Customer Table**:
-     - Customer ID
-     - Name
-     - Location
-     - Contact Information
-  2. **Product Table**:
-     - Product ID
-     - Product Name
-     - Category
-     - Unit Price
-     - Stock Quantity
-  3. **Sales Table**:
-     - Sales ID
-     - Date of Sale
-     - Customer ID (linked to Customer Table)
-     - Product ID (linked to Product Table)
-     - Quantity Sold
-     - Total Sales Amount
+- **Source**: [Bank Customer Data (Example Dataset)](https://www.kaggle.com/datasets) *(replace with your actual source)*
+- **Data Points**:
+  - Customer ID, Age, Gender
+  - Account Balance, Credit Score
+  - Transaction History
+  - Churn Status
 
 ---
 
 ##  **Tools & Technologies**
 - **Microsoft Power BI** – Dashboard creation and visualization
 - **Power Query** – Data cleaning and transformation
-- **DAX (Data Analysis Expressions)** – KPIs and calculated measures
+- **DAX (Data Analysis Expressions)** – Measures and calculated columns for insights
+- **CSV/Excel** – Data input formats
 
 ---
 
-## 📈 **Dashboard Snapshots**
-![Dashboard Screenshot](Sales%20%26%20Inventory%20Dashboard.png)
+##  **Dashboard Snapshots**
+![Dashboard Preview](Bank%20Data%20Analysis.png)
 
 ---
 
 ##  **Insights Derived**
-- Top 3 Most Sold products:  **Asparagus,Carrot,Rhubab**.
-- Certain customer segments show higher purchase Quantity.
-- Seasonal sales trends identified for better demand forecasting.
+- Majority of active customers fall within the **31-40 age group**
+- Customers with **higher account balances** tend to have more product subscriptions.
+- Identified key factors contributing to customer churn for targeted retention campaigns.
+
 
 ---
-
-
-## 📜 **License**
-This project is for educational and analytical purposes only. Data is anonymized and for demonstration purposes.
