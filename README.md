@@ -1,44 +1,54 @@
-# **COVID-19 Data Analysis – Power BI Dashboard**
+# **Customer Demographics & Status Analysis – Power BI Dashboard**
 
 ##  **Project Overview**
-This project provides an interactive **Power BI dashboard** that analyzes global COVID-19 data to track the spread, impact, and trends of the pandemic over time.  
-The dashboard helps visualize cases, recoveries, deaths, and vaccination progress across countries and regions, enabling data-driven understanding and decision-making.
+This project presents an interactive **Power BI dashboard** that analyzes customer demographic and status-related data.  
+The aim is to uncover patterns based on birth date, gender, marital status, location, and living conditions to help with segmentation, decision-making, and targeted services.
 
 ---
 
-##  **Key Features**
-- **Global Trend Analysis** – Visualization of confirmed cases, recoveries, and deaths over time.
-- **Country & Region Comparison** – Side-by-side comparison of COVID-19 metrics by location.
-- **Vaccination Progress** – Tracking vaccination rates and coverage worldwide.
-- **Impact Analysis** – Insights into daily new cases, fatality rates, and recovery rates.
-- **Interactive Filters** – Filter data by date range, country, and region for detailed exploration.
+## 📊 **Key Features**
+- **Demographic Distribution** – Breakdown by gender, age groups, and marital status.
+- **Geographical Insights** – Analysis by city, state, and postal code.
+- **Living Status Overview** – Insights into customers’ current living status and location patterns.
+- **Status Tracking** – Monitor and analyze active/inactive customer statuses over time.
+- **Time-Based Trends** – Identify trends based on recorded dates and times.
+- **Interactive Filtering** – Filter data by gender, marital status, location, and status for deeper exploration.
 
 ---
 
 ##  **Dataset Information**
+
 - **Data Points**:
-  - Date, Country, Region
-  - Confirmed Cases, Deaths, Recoveries
-  - Active Cases
+  - **Birthdate** – Customer’s date of birth
+  - **City** – City of residence
+  - **Date** – Record entry date
+  - **Gender Code** – Encoded gender information
+  - **Living Status** – Current living condition or status
+  - **Marital Status** – Customer’s marital situation
+  - **Postal Code** – Zip/postal code of residence
+  - **State** – State of residence
+  - **Status** – Customer’s current status (e.g., Active/Inactive)
+  - **Time** – Record entry time
 
 ---
 
 ##  **Tools & Technologies**
-- **Microsoft Power BI** – Visualization and dashboard building
-- **Power Query** – Data extraction and transformation
-- **DAX (Data Analysis Expressions)** – Custom measures and calculations
-- **CSV / API** – Data ingestion formats
+- **Microsoft Power BI** – Dashboard creation and visualization
+- **Power Query** – Data cleaning and transformation
+- **DAX (Data Analysis Expressions)** – Custom calculations and measures
+- **CSV/Excel** – Data source format
 
 ---
 
 ##  **Dashboard Snapshots**
-![Dashboard Preview](Covid%2019%20Data%20Analysis.png)
+![Dashboard Screenshot](Email%20Marketing%20Dashboard.png)
 
 ---
 
 ##  **Insights Derived**
-- Peak case waves identified in various regions and timelines.
-- Vaccination rollout progress correlated with decline in active cases.
-- Regions with lower vaccination rates show higher case fatality ratios.
-- Daily case trends help predict potential surges.
+- Most customers signed up within the **2018 year**.
+- Certain states and postal codes have higher concentrations of active customers.
+- Married customers show different location and status patterns compared to single customers.
+- Time-based patterns reveal peak record entry hours.
 
+---
